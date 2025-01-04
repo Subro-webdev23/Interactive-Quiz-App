@@ -1,0 +1,33 @@
+.container {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+}
+.question {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.options {
+    list-style: none;
+    padding: 0;
+}
+.options li {
+    margin: 5px 0;
+}
+.options button {
+    padding: 5px 15px;
+    cursor: pointer;
+}
+.feedback {
+    margin-top: 10px;
+    font-weight: bold;
+}
+.score {
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.button {
+    display: flex;
+    gap: 150px;
+}
